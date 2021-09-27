@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+
+p {
+float: left;
+}
+
+h1{
+    background-image: url("mount.jpg");
+    font-family: arial;
+    font-size:xx-large;
+    color: white;
+    padding: 30px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 7;
+    overflow: hidden;
+    background-color: rgb(29, 29, 29);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  a {
+    display: block;
+    color: rgb(175, 175, 175);
+    text-align: center;
+    padding: 14px 16px;
+    font-family: arial;
+  }
