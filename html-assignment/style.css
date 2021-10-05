@@ -23,10 +23,6 @@ ul {
     background-color: rgb(29, 29, 29);
   }
   
-  li {
-    float: right;
-  }
-  
   a {
     display: block;
     color: rgb(175, 175, 175);
