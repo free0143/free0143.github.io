@@ -3,7 +3,9 @@ body{
 }
 
 p {
-float: left;
+padding-left: 50px;
+padding-right: 50px;
+font-family: arial;
 }
 
 h1{
@@ -22,6 +24,10 @@ ul {
     overflow: hidden;
     background-color: rgb(177, 177, 177);
   }
+
+li{
+  font-family: arial;
+}
 
   a {
     display: block;
