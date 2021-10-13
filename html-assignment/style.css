@@ -1,11 +1,12 @@
 body{
-    background-color: white;
+    background-color:peachpuff;
+    font-family: Arial;
+    font-size: 18px;
 }
 
 p {
 padding-left: 50px;
 padding-right: 50px;
-font-family: arial;
 }
 
 h1{
@@ -22,7 +23,6 @@ ul {
     margin: 1;
     padding: 7;
     overflow: hidden;
-    background-color: rgb(177, 177, 177);
   }
 
 li{
@@ -37,12 +37,11 @@ li{
     font-family: arial;
   }
 
-header{
-    background-color:indigo;
+header, footer{
+    background-color:sandybrown;
     font-family: arial;
-    font-size:xx-large;
     color: white;
-    padding: 30px;
+    padding: 10px;
     margin: 0;
 }  
 
@@ -56,4 +55,41 @@ dl{
 
 dt{
   padding: 15px;
+}
+
+.site-title{
+  color:steelblue;
+}
+
+#my-image{
+  box-shadow: 0 2px 1px rgb(0, 0, 0);
+}
+
+ol:nth-child(odd) { 
+  background-color:seagreen;
+  list-style-type: square;
+}
+
+a:hover{
+  color:silver;
+  text-decoration: none;
+  background-color: red;
+}
+
+a:visited{
+  border: 1px solid grey;
+  text-decoration: none;
+  background-color: teal;
+}
+
+a:link{
+  border: 1px solid grey;
+  text-decoration: none;
+  background-color: teal;
+}
+
+a:active{
+  text-decoration: none;
+  border: 1px solid grey;
+  background-color: teal;
 }
