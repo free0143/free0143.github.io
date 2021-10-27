@@ -8,8 +8,28 @@ text-align: center;
 overflow: hidden;
 }
 
-ul{
+li{
+    float: left;
     text-decoration: none;
-    list-style: none;
     font-family: arial;
+    display: inline;
+    margin: 0;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+  background-color:goldenrod;
+  padding: 8px;
+  color: white;
+  font-size: larger;
+  text-align: center;
+}
+
+ul{
+    overflow: hidden;
+}
+
+li a:hover{
+    background-color: darkgoldenrod;
 }
