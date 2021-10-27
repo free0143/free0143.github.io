@@ -1,7 +1,7 @@
 header {
 font-family: arial;
 background-image: url('/images/sens.png');
-background-color: crimson;
+background-color: #C52032;
 color: white;
 padding: 70px;
 text-align: center;
@@ -19,7 +19,7 @@ li{
 a{
   text-decoration: none;
   display: block;
-  background-color:goldenrod;
+  background-color:#C2912C;
   padding: 10px;
   color: white;
   font-size: larger;
@@ -37,5 +37,5 @@ li a:hover{
 h2{
     font-size:xx-large;
     font-family: arial;
-    color: crimson;
+    color: #C52032;
 }
