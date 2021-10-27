@@ -1,4 +1,15 @@
 header {
 font-family: arial;
-background: url('/images/sens.png');
+background-image: url('/images/sens.png');
+background-color: crimson;
+color: white;
+padding: 70px;
+text-align: center;
+overflow: hidden;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    font-family: arial;
 }
