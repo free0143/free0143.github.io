@@ -33,3 +33,9 @@ ul{
 li a:hover{
     background-color: darkgoldenrod;
 }
+
+h2{
+    font-size:xx-large;
+    font-family: arial;
+    color: crimson;
+}
