@@ -1,11 +1,15 @@
 header {
 font-family: arial;
-background-image: url('/images/sens.png');
+background-image: url('../images/sens.png');
 background-color: #C52032;
 color: white;
-padding: 70px;
+padding: 12%;
 text-align: center;
 overflow: hidden;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
 }
 
 li{
