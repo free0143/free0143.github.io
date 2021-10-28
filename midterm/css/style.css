@@ -42,8 +42,16 @@ h2{
     font-size:xx-large;
     font-family: arial;
     color: #C52032;
+    padding-left: 3%;
 }
 
 .paragraph{
     font-family: arial;
+    font-size: large;
+    padding: 3%;
+}
+
+.zub{
+    float: left;
+    padding: 1%;
 }
