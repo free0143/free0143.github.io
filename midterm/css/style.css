@@ -1,3 +1,4 @@
+/* text styling */
 header {
 font-family: arial;
 background-image: url('../images/sens.png');
@@ -16,6 +17,18 @@ body{
     background-color: #C52032;
 }
 
+h2{
+    font-size:xx-large;
+    font-family: arial;
+    color: white;
+    padding-left: 3%;
+}
+
+p{
+    color: white;
+}
+
+/* nav bar styling */
 li{
     float: left;
     text-decoration: none;
@@ -42,13 +55,7 @@ li a:hover{
     background-color: darkgoldenrod;
 }
 
-h2{
-    font-size:xx-large;
-    font-family: arial;
-    color: white;
-    padding-left: 3%;
-}
-
+/* div tags */
 .paragraph{
     font-family: arial;
     font-size: large;
@@ -64,10 +71,7 @@ h2{
     padding:5%;
 }
 
-p{
-    color: white;
-}
-
+ /* nhl stats */
 table{
     width: 40%;
     font-family: arial;
@@ -87,6 +91,7 @@ th{
     color: black;
   }
 
+  /* citing */
 cite{
       font-size: 3%;
   }
