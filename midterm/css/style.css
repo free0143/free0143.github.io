@@ -49,6 +49,7 @@ a{
 
 ul{
     overflow: hidden;
+    float: inline-start;
 }
 
 li a:hover{
