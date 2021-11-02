@@ -40,7 +40,6 @@ li{
 a{
   text-decoration: none;
   display: block;
-  background-color:#C2912C;
   padding: 11px;
   color: white;
   font-size: larger;
@@ -49,11 +48,10 @@ a{
 
 ul{
     overflow: hidden;
-    float: inline-start;
 }
 
 li a:hover{
-    background-color: darkgoldenrod;
+    background-color: #C2912C;
 }
 
 /* div tags */
