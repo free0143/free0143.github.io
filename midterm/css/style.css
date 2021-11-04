@@ -11,6 +11,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
+margin: 0%;
 }
 
 body{
@@ -35,6 +36,7 @@ li{
     font-family: arial;
     display: inline;
     margin: 0;
+    width: 25%;
 }
 
 a{
