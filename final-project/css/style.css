@@ -48,19 +48,33 @@ table {
 }
 
 /* my code below */
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 header{
-    background-color: goldenrod;
-    font-family: arial;
+    background-color: #c78c06;
+    font-family: Arial;
     text-align: center;
 }
 
 ul li{
     list-style-type: none;
-    background-color: rgb(43, 43, 43);
-    color: goldenrod;
+    background-color: #222;
+    color: #c78c06;
 }
 
 form{
-    background-color: rgb(43, 43, 43);
+    background-color: #222;
+}
+
+li{
+    padding: 10px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+li:nth-child(1){
+    background-color: #c78c06;
 }
