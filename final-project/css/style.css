@@ -78,8 +78,3 @@ li:nth-child(4){
 li:nth-child(5){
     background-color: #222;
 }
-
-img{
-    background-color: #c78c06;
-    justify-content: start;
-}
