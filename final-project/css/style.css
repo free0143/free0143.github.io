@@ -49,32 +49,37 @@ table {
 
 /* my code below */
 body{
-    margin-left: 20%;
-    margin-right: 20%;
+    justify-content: center;
 }
 
 header{
-    background-color: #c78c06;
+    background-color: #222;
     font-family: Arial;
     text-align: center;
 }
 
 ul li{
     list-style-type: none;
-    background-color: #222;
-    color: #c78c06;
-}
-
-form{
-    background-color: #222;
-}
-
-li{
-    padding: 10px;
-    font-size: larger;
-    text-decoration: none;
-}
-
-li:nth-child(1){
     background-color: #c78c06;
+    color: #c78c06;
+    padding: 20px;
+    font-size: larger;
+}
+
+li:nth-child(2){
+    background-color: #222;
+}
+li:nth-child(3){
+    background-color: #222;
+}
+li:nth-child(4){
+    background-color: #222;
+}
+li:nth-child(5){
+    background-color: #222;
+}
+
+img{
+    background-color: #c78c06;
+    justify-content: start;
 }
