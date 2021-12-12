@@ -94,6 +94,17 @@ li:nth-child(5){
     height: 100px;
 }
 
+button {
+    background-color: #c78c06;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
 table{
     width: 100%;
 }
@@ -109,14 +120,3 @@ th, td{
 th{
     background-color: #ffe6ac;
 }
-
-button {
-    background-color: #c78c06;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-  }
