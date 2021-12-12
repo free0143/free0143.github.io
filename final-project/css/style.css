@@ -48,13 +48,13 @@ table {
 }
 
 /* my code below */
+
 body{
-    justify-content: center;
+    font-family: Arial;
 }
 
 header{
     background-color: #222;
-    font-family: Arial;
     text-align: center;
 }
 
@@ -77,4 +77,32 @@ li:nth-child(4){
 }
 li:nth-child(5){
     background-color: #222;
+}
+
+.welcome{
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+.imageback{
+    height: 200px;
+    background: #c78c06;
+}
+
+table{
+    width: 100%;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 1em 0;
+}
+
+th{
+    background-color: #ffe6ac;
 }
