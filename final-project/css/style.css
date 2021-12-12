@@ -75,17 +75,6 @@ li:nth-child(1){
     background-color: #c78c06;
 }
 
-.welcome{
-    font-size: 42px;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-.imageback{
-    height: 100px;
-}
-
 button {
     background-color: #c78c06;
     border: none;
@@ -111,4 +100,8 @@ th, td{
 
 th{
     background-color: #ffe6ac;
+}
+
+.grids{
+    display: flex;
 }
