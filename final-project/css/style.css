@@ -104,4 +104,11 @@ th{
 
 .grids{
     display: flex;
+    background-color: #ffe6ac;
+}
+
+#services{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 15px;
 }
