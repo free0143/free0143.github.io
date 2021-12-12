@@ -54,13 +54,13 @@ body{
 }
 
 header{
-    background-color: #222;
-    text-align: center;
+    Position: relative;
+    margin: 5px;
+    background-Color: #222;
 }
 
 ul li{
     list-style-type: none;
-    background-color: #c78c06;
     color: #c78c06;
     padding: 20px;
     font-size: larger;
@@ -68,19 +68,11 @@ ul li{
 
 li{
     text-decoration: none;
+    text-align: center;
 }
 
-li:nth-child(2){
-    background-color: #222;
-}
-li:nth-child(3){
-    background-color: #222;
-}
-li:nth-child(4){
-    background-color: #222;
-}
-li:nth-child(5){
-    background-color: #222;
+li:nth-child(1){
+    background-color: #c78c06;
 }
 
 .welcome{
