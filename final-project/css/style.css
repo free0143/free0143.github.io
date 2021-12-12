@@ -102,13 +102,19 @@ th{
     background-color: #ffe6ac;
 }
 
-.grids{
-    display: flex;
+.digital{
+    padding: 10px;
     background-color: #ffe6ac;
+    justify-content: center;
 }
 
 #services{
     font-size: xx-large;
     font-weight: bold;
     padding: 15px;
+}
+
+h4{
+    font-size: xx-large;
+    font-weight: bold;
 }
