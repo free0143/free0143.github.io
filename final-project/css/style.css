@@ -66,6 +66,10 @@ ul li{
     font-size: larger;
 }
 
+li{
+    text-decoration: none;
+}
+
 li:nth-child(2){
     background-color: #222;
 }
@@ -83,12 +87,11 @@ li:nth-child(5){
     font-size: 42px;
     color: white;
     text-align: center;
-    position: absolute;
+    position: relative;
 }
 
 .imageback{
-    height: 200px;
-    background: #c78c06;
+    height: 100px;
 }
 
 table{
@@ -106,3 +109,14 @@ th, td{
 th{
     background-color: #ffe6ac;
 }
+
+button {
+    background-color: #c78c06;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
