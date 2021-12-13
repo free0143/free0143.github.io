@@ -126,6 +126,8 @@ table {
 
 .grids{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .digital{
@@ -140,13 +142,16 @@ table {
     width: 100%;
 }
 
+.digibutton{
+    margin: 10px;
+}
+
 body{
     font-family: sans-serif;
 }
 
 header{
     Position: relative;
-    margin: 5px;
     background-Color: #222;
 }
 
