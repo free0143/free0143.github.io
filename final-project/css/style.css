@@ -49,43 +49,26 @@ table {
 
 /* MOBILE DEVICES */
 
-body{
-    font-family: sans-serif;
+#services{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 15px;
 }
 
-.container{
-    width: 100vw;
-    height: 100vh;
-}
-
-header{
-    Position: relative;
-    margin: 5px;
-    background-Color: #222;
+#search{
+    font-size: 15px;
+    width: 81%;
+    float: left;
+    padding: 14px;
 }
 
 .logo{
     background-color: #c78c06;
 }
 
-a{
-    text-decoration: none;
-    color: #c78c06;
-}
-
-ul li{
-    list-style-type: none;
-    color: #c78c06;
-    padding: 20px;
-    font-size: larger;
-}
-
-li{
-    text-align: center;
-}
-
-li:nth-child(1){
-    background-color: #c78c06;
+.container{
+    width: 100vw;
+    height: 100vh;
 }
 
 .hover{
@@ -101,13 +84,6 @@ li:nth-child(1){
     justify-content: center;
     flex-direction: row;
     display: block;
-}
-
-#search{
-    font-size: 15px;
-    width: 81%;
-    float: left;
-    padding: 14px;
 }
 
 .welcome{
@@ -137,6 +113,46 @@ li:nth-child(1){
     border-color: #c78c06;
 }
 
+.grids{
+    display: flex;
+}
+
+.digital{
+    background-color: #ffe6ac;
+    margin: 10px;
+    width: 100%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    Position: relative;
+    margin: 5px;
+    background-Color: #222;
+}
+
+a{
+    text-decoration: none;
+    color: #c78c06;
+}
+
+ul li{
+    list-style-type: none;
+    color: #c78c06;
+    padding: 20px;
+    font-size: larger;
+}
+
+li{
+    text-align: center;
+}
+
+li:nth-child(1){
+    background-color: #c78c06;
+}
+
 button{
     background-color: #222;
     border: none;
@@ -163,17 +179,6 @@ th, td{
 
 th{
     background-color: #ffe6ac;
-}
-
-.digital{
-    padding: auto;
-    background-color: #ffe6ac;
-}
-
-#services{
-    font-size: xx-large;
-    font-weight: bold;
-    padding: 15px;
 }
 
 h1{
