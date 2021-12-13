@@ -62,6 +62,12 @@ table {
     padding: 14px;
 }
 
+#about-us{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 15px;
+}
+
 .logo{
     background-color: #c78c06;
 }
@@ -111,6 +117,11 @@ table {
 .butts{
     color: #c78c06;
     border-color: #c78c06;
+}
+
+.aboutus{
+    background-color: #ffe6ac;
+    padding: 10px;
 }
 
 .grids{
