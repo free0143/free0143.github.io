@@ -53,6 +53,12 @@ body{
     font-family: sans-serif;
 }
 
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+}
+
 header{
     Position: relative;
     margin: 5px;
@@ -88,7 +94,6 @@ li:nth-child(1){
 }
 
 .searchbar{
-    display: flex;
     padding: 10px;
     flex-wrap: wrap;
     width: 100%;
@@ -96,16 +101,40 @@ li:nth-child(1){
     flex-grow: 1;
     justify-content: center;
     flex-direction: row;
+    display: block;
 }
 
 #search{
     font-size: 15px;
     width: 81%;
     float: left;
+    padding: 10px;
 }
 
-button {
+.welcome{
+   position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 50px;
+    background-color: rgba(34, 34, 34, 0.543);
+    color: white;
+    width: 95%;
+    padding: 10px;
+}
+
+.welcomepeeps{
     background-color: #c78c06;
+    color: #222;
+    padding: 32px 15px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+}
+
+button{
+    background-color: #222;
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -142,8 +171,21 @@ th{
     padding: 15px;
 }
 
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 h4{
     font-size: xx-large;
     font-weight: bold;
     padding: 1%;
+}
+
+p{
+    display: inline;
+    margin: 5px;
+    inline-size: 1.5em;
 }
