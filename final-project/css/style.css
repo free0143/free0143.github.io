@@ -81,7 +81,14 @@ li{
 
 li:nth-child(1){
     background-color: #c78c06;
+}
+
+.hover{
     color: #222;
+}
+
+.searchbar{
+    
 }
 
 button {
