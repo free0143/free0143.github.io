@@ -88,7 +88,20 @@ li:nth-child(1){
 }
 
 .searchbar{
-    
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#search{
+    font-size: 15px;
+    width: 81%;
+    float: left;
 }
 
 button {
