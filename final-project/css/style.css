@@ -56,7 +56,6 @@ body{
 .container{
     width: 100vw;
     height: 100vh;
-    margin: 10px;
 }
 
 header{
@@ -108,7 +107,7 @@ li:nth-child(1){
     font-size: 15px;
     width: 81%;
     float: left;
-    padding: 10px;
+    padding: 14px;
 }
 
 .welcome{
@@ -133,6 +132,11 @@ li:nth-child(1){
     margin: 20px;
 }
 
+.butts{
+    color: #c78c06;
+    border-color: #c78c06;
+}
+
 button{
     background-color: #222;
     border: none;
@@ -142,6 +146,7 @@ button{
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    color: white;
 }
 
 table{
