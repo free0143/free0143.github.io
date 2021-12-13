@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* my code below */
+/* MOBILE DEVICES */
 
 body{
     font-family: sans-serif;
@@ -59,6 +59,15 @@ header{
     background-Color: #222;
 }
 
+.logo{
+    background-color: #c78c06;
+}
+
+a{
+    text-decoration: none;
+    color: #c78c06;
+}
+
 ul li{
     list-style-type: none;
     color: #c78c06;
@@ -67,12 +76,12 @@ ul li{
 }
 
 li{
-    text-decoration: none;
     text-align: center;
 }
 
 li:nth-child(1){
     background-color: #c78c06;
+    color: #222;
 }
 
 button {
@@ -84,7 +93,7 @@ button {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-  }
+}
 
 table{
     width: 100%;
@@ -103,7 +112,7 @@ th{
 }
 
 .digital{
-    padding: 10px;
+    padding: auto;
     background-color: #ffe6ac;
 }
 
@@ -116,4 +125,5 @@ th{
 h4{
     font-size: xx-large;
     font-weight: bold;
+    padding: 1%;
 }
