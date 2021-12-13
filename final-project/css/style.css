@@ -52,7 +52,9 @@ table {
 #services{
     font-size: xx-large;
     font-weight: bold;
-    padding: 15px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 20px;
 }
 
 #search{
@@ -62,10 +64,54 @@ table {
     padding: 14px;
 }
 
+#name{
+    font-size: 15px;
+    float: left;
+    padding: 5px;
+}
+
+#email{
+    font-size: 15px;
+    float: left;
+    padding: 5px;
+}
+
+#message{
+    font-size: 15px;
+    float: left;
+    padding: 5px;
+}
+
 #about-us{
     font-size: xx-large;
     font-weight: bold;
     padding: 15px;
+}
+
+#contact{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.formtext{
+    margin: 15px;
+}
+
+.send{
+    padding: 5px;
+    color: #c78c06;
+    margin: 10px;
+}
+
+.suam{
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 
 .logo{
@@ -146,6 +192,10 @@ table {
     margin: 10px;
 }
 
+.map{
+    margin-bottom: 15px;
+}
+
 body{
     font-family: sans-serif;
 }
@@ -222,4 +272,10 @@ p{
     display: inline;
     margin: 5px;
     inline-size: 1.5em;
+}
+
+footer{
+    background-color: #222;
+    color: #c78c06;
+    padding: 15px;
 }
