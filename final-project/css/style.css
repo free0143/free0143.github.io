@@ -199,6 +199,8 @@ table {
 
 body{
     font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header{
