@@ -67,19 +67,19 @@ table {
 #name{
     font-size: 15px;
     padding: 15px;
-    width: 99%;
+    width: 95%;
 }
 
 #email{
     font-size: 15px;
     padding: 15px;
-    width: 99%;
+    width: 95%;
 }
 
 #message{
     font-size: 15px;
     padding: 15px;
-    width: 99%;
+    width: 95%;
     padding-bottom: 50px;
 }
 
@@ -98,10 +98,11 @@ table {
 }
 
 #image{
-    position: relative; 
-    top: 0; 
-    left: 0; 
-    background-size: cover;
+    width: 100%;
+}
+
+#imagealter{
+    width: 100%;
 }
 
 .formtext{
@@ -155,7 +156,7 @@ table {
     top: 50px;
     background-color: rgba(34, 34, 34, 0.543);
     color: white;
-    width: 95%;
+    width: 98%;
     padding: 10px;
 }
 
@@ -183,7 +184,7 @@ table {
     display: inline-block;
     font-size: 20px;
     margin: 20px;
-    border: #c78c06;
+    border: 1px solid #c78c06;
 }
 
 .vision{
@@ -281,7 +282,7 @@ table, tr, th, td{
 }
 
 th, td{
-    padding: 1em 0;
+    padding: 13px;
 }
 
 th{
@@ -313,4 +314,16 @@ footer{
     background-color: #222;
     color: #c78c06;
     padding: 15px;
+}
+
+/* desktop styling */
+
+@media screen and (min-width: 760px){
+
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1260px;
+    }
+
 }
