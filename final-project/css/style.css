@@ -152,6 +152,14 @@ table {
     padding: 10px;
 }
 
+.text2{
+    position: absolute;
+    top: 50px;
+    color: white;
+    width: 95%;
+    padding: 10px;
+}
+
 .welcomepeeps{
     background-color: #c78c06;
     color: #222;
@@ -159,6 +167,20 @@ table {
     display: inline-block;
     font-size: 20px;
     margin: 20px;
+}
+
+.ourvision{
+    background-color: rgba(34, 34, 34, 0.653);
+    color: rgb(255, 255, 255);
+    padding: 32px 15px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    border: #c78c06;
+}
+
+.vision{
+    position: relative;
 }
 
 .butts{
