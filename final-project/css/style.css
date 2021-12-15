@@ -375,3 +375,32 @@ footer{
     color: #c78c06;
     padding: 15px;
 }
+
+/* desktop styling */
+@media screen and (min-width: 760px){
+
+    .container{
+        margin: 0 auto;
+        width: 80%;
+        max-width: 1260px;
+    }
+
+    .contact-us{
+        display: grid;
+    }
+
+    .location{
+        grid-column-start: 5;
+        grid-row-start: 1;
+    }
+
+    .form{
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    table{
+        grid-area: 5/ span 1;
+        grid-row-end: 5;
+    }
+}
