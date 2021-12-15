@@ -49,6 +49,7 @@ table {
 
 /* MOBILE DEVICES */
 
+/* id styling */
 #services{
     font-size: xx-large;
     font-weight: bold;
@@ -110,6 +111,8 @@ table {
     font-weight: bold;
     padding: 20px;
 }
+
+/* class styling */
 
 .formtext{
     margin: 15px;
@@ -282,6 +285,8 @@ table {
     padding: 10px;
 }
 
+/* css styling */
+
 html{
     margin-left: auto;
     margin-right: auto;
@@ -369,16 +374,4 @@ footer{
     background-color: #222;
     color: #c78c06;
     padding: 15px;
-}
-
-/* desktop styling */
-
-@media screen and (min-width: 760px){
-
-    .container{
-        margin: 0 auto;
-        width: 80%;
-        max-width: 1260px;
-    }
-
 }
