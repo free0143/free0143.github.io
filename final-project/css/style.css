@@ -59,7 +59,7 @@ table {
 
 #search{
     font-size: 15px;
-    width: 81%;
+    width: 86%;
     float: left;
     padding: 14px;
 }
@@ -103,6 +103,12 @@ table {
 
 #imagealter{
     width: 100%;
+}
+
+#team{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .formtext{
@@ -227,13 +233,44 @@ table {
     margin-bottom: 15px;
 }
 
+.paragraph{
+    padding: 15px;
+}
+
+.john{
+    background-color: #ffe6ac;
+    margin-bottom: 10px;
+}
+
+.bob{
+    background-color: #ffe6ac;
+}
+
+.ceo{
+    font-size: large;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-bottom: 2px solid #c78c06;
+    margin-bottom: 15px;
+}
+
+.uns{
+    text-decoration: underline;
+}
+
+.endfooter{
+    padding: 10px;
+}
+
 html{
     margin-left: auto;
     margin-right: auto;
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{

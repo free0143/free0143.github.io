@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA Compatible" content="IE=edge">
-<meta name="viewport" content="width-device width, initial-scal=1.0">
+    <meta name="viewport" content="width-device width, initial-scal=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -33,7 +36,6 @@
           <label for="search"></label>
           <input type="text" id="search" name="search" placeholder="search">
           <button class="butts" type="submit"><i class="icon icon-zoom"></i></button>
-
       </form>
     </div>
     
@@ -70,7 +72,7 @@
     <div class="digital">
         <img src="images/digital.jpg" id="image" alt="digital">
         <h4>Digital Transformation</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             
             <div>
@@ -134,23 +136,26 @@
     <h3 id="team">Our Team</h3>
 
     <div class="john">
+        <img src="images/john.jpg" id="image" alt="john doe">
         <h4>John Doe</h4>
-        <article>CEO and Co-Owner</article>
+        <div>
+        <article class="ceo">CEO and Co-Owner</article>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <br>
-            <img src="images/john.jpg" id="image" alt="john doe">
     </div>
 
+
     <div class="bob">
+        <img src="images/bob.jpg" id="image" alt="bob rite">
         <h4>Bob Rite</h4>
-        <article>CFO and Co-Owner</article>
+        <div>
+        <article class="ceo">CFO and Co-Owner</article>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <br>
-            <img src="images/bob.jpg" id="image" alt="bob rite">
     </div>
 
 <div class="contact-us">
@@ -194,7 +199,7 @@
           <td>Saturday-Sunday</td>
           <td>Closed</td>
         </tr>
-      </table>
+    </table>
 
     <div class="suam">Location</div>
 
@@ -205,7 +210,7 @@
 
 <footer>
     <p>© Copyright Three Star Media, 2020</p>
-    <p>All Images are taken from Unsplash</p>
+    <div class="endfooter">All Images are taken from <p class="uns">Unsplash</p></div>
 </footer>
 </div>
 </body>
