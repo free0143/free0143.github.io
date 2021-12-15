@@ -225,6 +225,24 @@ table {
     width: 100%;
 }
 
+.video{
+    background-color: #ffe6ac;
+    margin: 10px;
+    width: 100%;
+}
+
+.webdev{
+    background-color: #ffe6ac;
+    margin: 10px;
+    width: 100%;
+}
+
+.print{
+    background-color: #ffe6ac;
+    margin: 10px;
+    width: 100%;
+}
+
 .digibutton{
     margin: 10px;
 }
